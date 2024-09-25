@@ -1,0 +1,58 @@
+/*991px 767px 479px */
+@media screen and (max-width:991px){
+   header {
+    width: 1350px;
+   }
+    .navclick a {
+        margin:20px;
+        font-size:23px;
+    }
+    .navclick a {
+        height: 20px;
+        width: 270px;
+    }
+    .search-icon span , .search-icon input{
+        height:40px;
+        
+    }
+    .search-icon input {
+        width:243px;
+    }
+    .second-container{
+        width:1350px;
+    }
+    .main-container{
+        width:1346px;
+    }
+    .price a {
+        width: 86px;
+        margin-right: 8px;
+    
+    }
+    .s-one-container a{
+        height: 34px;
+        width: 128px;
+        margin-top: 112px;
+    } 
+    .s-one-container .img2 {
+        width:146px;
+    }
+    .t-one-container a {
+        width: 112px;
+        margin-top: 114px;
+    }
+    .t-one-container .img3 {
+        width:146px;
+    }
+    .footer2, .footer3, .footer4, .footer5{
+        font-size:1.5rem;
+    }
+    .button button {
+        height: 51px;
+        width: 150px;   
+        font-size: 1.5rem; 
+        border-radius:20px;
+    }
+    
+    
+}
