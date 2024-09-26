@@ -575,23 +575,25 @@ footer .footer5 {
     border-radius:60%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.button{
-    height: 80px;
-    width: 100%;
-   
-    border: 2px solid black;
-}
+
 .button button{
     height: 40px;
     width: 100px;
    margin:20px 0px 0px 50% ;
    border: 1px solid black;
-   border-radius: 5px;
+   border-radius: 22px;
+    position: fixed;
+    left: 41%;
+    bottom: 38px;
+
 
 }
 .button button:hover{
     cursor: pointer;
+    scale:1.1;
+    transition-property: all;
     
+    transition-duration: 0.3s;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   
 }
